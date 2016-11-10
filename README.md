@@ -59,11 +59,11 @@ here i have given just description of each and every HTML tag which you need to 
 
 ### HTML tags with Description.
 
-1. <b>IFrame tag</b><br />
+1. <b>IFrame tag</b><br /><br />
     &lt;iFrame<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Src**="**_RootDirectoryPath/FileUploader/CommonFileUploader.html_**"<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-AppendReturnedHTMLTo**="**_#tblAttachments > tbody_**"<br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-ReturnHTMLAfterUpload**="**#_TemplateOfReturnHTMLAfterUpload_**"<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-ReturnHTMLAfterUpload**="**_#TemplateOfReturnHTMLAfterUpload_**"<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-StaticPath**=""<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-PathFromAppSettings**=""<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-CallbackOnEveryFileUpload**=""><br />
