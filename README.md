@@ -2,9 +2,9 @@
 File uploader for ASP.NET ( JQuery File uploader with some easy steps )
 
 # Objective & Scope of Common FileUploader.
-ASP.NET File uploader control works with Asp.net Form element (its legacy of .Net environment), and it allows only single form on page (which is ' form runat="server" ') so with this legacy we generally use Form element in master page only. If we use server side file uploader or Ajax file uploader with form inside Master page form it usually gives ambiguous behaviour (in some customised cases). Plus we cannot make customization and we should follow the legacy.  
+in ASP.NET FileUploader control works with Asp.net Form element (its legacy of .Net environment), ASP.NET allows only single form on page (which is ' form runat="server" ') so with this legacy we generally use Form element in master page only. If we use ASP.NET FileUploader control or Ajax FileUploader in Master page scenarioes, it usually gives ambiguous behaviour (in some customised cases), plus we cannot make any customization and we should follow the legacy.  
 
-Solution on this legacy to achieve common and customised file uploader functionality I eliminate server side page and built my logic in simple HTML page with the help of Jquery where I am using Form element with HTML iFrame element, where my iFrame interact with your actual page and achieve the goal.
+so the Solution on this legacy and to achieve common and customised file uploader functionality I eliminate server side page and built my logic in simple HTML page with the help of JQuery where I am using HTML Form element with HTML iFrame element, where my iFrame interact with your actual parent page and achieve the goal.
 
 # How it works 
   I have put my all logic in one HTML file (including Jquery and CSS) and this page interact with Generic handler and dump your uploaded files on specified path. you just need to call this HTML page in your ASP.NET or HTML with the help of iFrame tag with options as listed below <b>(All these options are in the form of iFrame Attributes)</b>.
