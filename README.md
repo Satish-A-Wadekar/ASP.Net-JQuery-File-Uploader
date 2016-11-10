@@ -97,7 +97,7 @@ Data-AppendReturnedHTMLTo will append HTML which returned to targeted HTML Eleme
 
 # How to install this File uploader in your application ?
 
-just download (FileUploader folder) and put it in your Applications root directory. and thats it :) 
+just Download ZIP, you will find FileUploader.rar inside it just unzip it and put FileUploader folder as it is inside your Application root directory. and thats it :) 
 happy codding....
 
 ## Files hierarchy of FileUploader folder
