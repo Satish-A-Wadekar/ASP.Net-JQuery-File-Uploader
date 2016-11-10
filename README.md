@@ -52,6 +52,13 @@ Data-AppendReturnedHTMLTo will append HTML which returned to targeted HTML Eleme
 here i have given just description of each and every HTML tag which you need to add in your page.
 
 ### You just need to add below HTML element tags in your page. 
+- iFrame Tag
+- Template Tag
+- Any HTML Tag which will shows uploaded Files List. <br />
+  e.g UL > LI, Table > TR
+
+### HTML tags with Description.
+
 1. <b>IFrame tag</b><br />
     &lt;iFrame<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Src**="**_RootDirectoryPath/FileUploader/CommonFileUploader.html_**"<br />
