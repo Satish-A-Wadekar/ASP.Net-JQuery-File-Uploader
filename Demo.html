@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+
+    <!--your file uploader will render inthe form of iframe :) --> 
+    <iFrame
+         Src="RootDirectoryPath/FileUploader/CommonFileUploader.html"
+         data-AppendReturnedHTMLTo="#tblAttachments > tbody"
+         data-ReturnHTMLAfterUpload="#TemplateOfReturnHTMLAfterUpload"
+         data-StaticPath=""
+         data-PathFromAppSettings=""
+         data-CallbackOnEveryFileUpload="">
+    </iFrame>
+    <!--your file uploader will render inthe form of iframe :) --> 
+
+
+
+    <!--Your Template which going to be wrapped with actual information of uploaded  files--> 
+    <script type="text/html" id="TemplateOfReturnHTMLAfterUpload">
+        <tr>
+           <td>{FileName}</td>
+           <td>{FileExtension}</td>
+           <td>{FileType}</td>
+           <td>{FileSize}</td>
+           <td>{FileNameWithoutExtension}</td>
+           <td>{FileNameWithPath}</td>
+        </tr>
+    </script>
+    <!--Your Template which going to be wrapped with actual information of uploaded  files--> 
+
+
+
+    <!--your HTML where your templated html will append after file upload--> 
+    <table id="tblAttachments">
+          <thead>
+              <tr>
+                  <th>File Name</th>
+                  <th>Extension</th>
+                  <th>Type</th>
+                  <th>Size (KB)</th>
+                  <th>File Name Without Extension</th>
+                  <th>File Path</th>
+              </tr>
+            </thead>
+            <tbody>
+                <!--here all templated rows will append--> 
+            </tbody>
+    </table>
+    <!--your HTML where your templated html will append after file upload--> 
+</body>
+</html>
