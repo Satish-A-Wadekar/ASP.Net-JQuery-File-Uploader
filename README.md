@@ -67,9 +67,7 @@ here i have given just description of each and every HTML tag which you need to 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-StaticPath**=""<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-PathFromAppSettings**=""<br />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**data-CallbackOnEveryFileUpload**=""><br />
-    &lt;/iFrame>
-
-
+    &lt;/iFrame><br /><br />
 2. <b>HTML Template (Script tag with type “text/html”)</b><br />
     *(here i use simple row template which will replace all "{}" curly bracket properties tags with information of Uploaded File and return plain HTML row to main page from iFrame)*.</b><br /> <br />
     &lt;script **type="text/html"** id="**_TemplateOfReturnHTMLAfterUpload_**"><br />
@@ -81,9 +79,8 @@ here i have given just description of each and every HTML tag which you need to 
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>**{FileNameWithoutExtension}**&lt;/td><br />
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td>**{FileNameWithPath}**&lt;/td><br />
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr><br />
-   &lt;/script><br /><br />
-   
-> **this template can be any customised HTML template depends upon your requirment, only mandatory is you need to add these "{}" curly bracket properties which will replace your uploaded file information after file gets upload**<br />
+   &lt;/script><br />
+> **this template can be any customised HTML template depends upon your requirment, only mandatory is you need to add these "{}" curly bracket properties which will replace your uploaded file information after file gets upload**<br /><br />
     
 3. <b>Any HTML Element where you want to append returned HTML</b><br />
 *(here I used plain HTML Table where the HTML which mentioned inside above Template will append after file gets upload)*<br /><br />
