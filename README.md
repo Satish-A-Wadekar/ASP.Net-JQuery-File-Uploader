@@ -7,10 +7,10 @@ in ASP.NET FileUploader control works with Asp.net Form element (its legacy of .
 so the Solution on this legacy and to achieve common and customised file uploader functionality I eliminate server side page and built my logic in simple HTML page with the help of JQuery where I am using HTML Form element with HTML iFrame element, where my iFrame interact with your actual parent page and achieve the goal.
 
 # Key Features
-- Single file uploade
-- Multiple files uploade
-- Drag & Drop Single file uploade
-- Drag & Drop Multiple files to uploade
+- Single file upload
+- Multiple files upload
+- Drag & Drop Single file upload
+- Drag & Drop Multiple files to upload
 
 # How it works 
   I have put my all logic in one HTML file (including Jquery and CSS) and this page interact with Generic handler and dump your uploaded files on specified path. you just need to call this HTML page in your ASP.NET or HTML with the help of iFrame tag with options as listed below <b>(All these options are in the form of iFrame Attributes)</b>.
